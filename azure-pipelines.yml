@@ -10,7 +10,7 @@ steps:
 - task: AzureCLI@2
   inputs:
     azureSubscription: 'demoresource'
-    scriptType: 'ps'
+    scriptType: pscore
     scriptLocation: 'inlineScript'
     inlineScript: |
       az --version
