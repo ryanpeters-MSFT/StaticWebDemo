@@ -14,7 +14,8 @@ steps:
     scriptLocation: 'inlineScript'
     inlineScript: |
       az --version
-      az account show'
+      az upgrade
+      az account show
 # Archive your static HTML project and save it with the build record.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
